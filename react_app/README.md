@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Quidditch Tactical Board - README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 目次
 
-In the project directory, you can run:
+1. [概要](#概要)
+2. [機能一覧](#機能一覧)
+3. [使用方法](#使用方法)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 概要
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Quidditch Tactical Boardは、クィディッチの戦術を視覚的に作成および共有できるツールです。
+プレイヤーの位置を調整し、描画モードを使って戦術を描き、複数のプレイヤーを同時に操作することができます。
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 機能一覧
 
-### `npm run build`
+- **プレイヤーの移動**: プレイヤーの位置をドラッグして変更可能
+- **複数選択**: Shiftキーを押しながら複数のプレイヤーを選択
+- **プレイヤー名の編集**: ダブルクリックで名前を編集可能
+- **モード切替**: Move ModeとDraw Modeを切り替え可能
+- **描画機能**: Draw Modeでフリーハンドでの描画や矢印を描画
+- **コート切替**: 全コートモードとハーフコートモードを切り替え可能
+- **Undo/Redo**: 操作の取り消しとやり直し
+- **リセット**: 初期状態にリセット
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 使用方法
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **モードの切替**
+    - Move Mode: プレイヤーの位置をドラッグして移動
+    - Draw Mode: キャンバス上にフリーハンドで描画
 
-### `npm run eject`
+2. **プレイヤーの選択**
+    - 単一選択: クリックで選択
+    - 複数選択: Shiftキーを押しながら複数のプレイヤーをクリック
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **プレイヤー名の編集**
+    - プレイヤーをダブルクリックして名前を編集
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **描画機能**
+    - フリーハンド描画: Draw Modeでドラッグして自由に描画
+    - 矢印描画: Draw Modeで開始点から終点までドラッグして矢印を描画
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **コートモード切替**
+    - 全コートモード: Full Courtボタンをクリック
+    - ハーフコートモード: Half Courtボタンをクリック
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. **Undo/Redo機能**
+    - Undo: Undoボタンをクリック
+    - Redo: Redoボタンをクリック
 
-## Learn More
+7. **リセット**
+    - Resetボタンをクリックして初期状態にリセット
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
